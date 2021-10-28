@@ -23,7 +23,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/cydia2001/catkin/src/initial_pose/models/model_res/kitchen/rubbish_bin.dae</uri>
+            <uri>$(find initial_pose)/models/model_res/kitchen/rubbish_bin.dae</uri>
             <scale>0.5 0.5 0.5</scale>
           </mesh>
         </geometry>
@@ -41,7 +41,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/home/cydia2001/catkin/src/initial_pose/models/model_res/kitchen/rubbish_bin.dae</uri>
+            <uri>$(find initial_pose)/models/model_res/kitchen/rubbish_bin.dae</uri>
             <scale>0.5 0.5 0.5</scale>
           </mesh>
         </geometry>

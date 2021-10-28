@@ -16,8 +16,8 @@ class InitialPose():
         # set default pose
         self.default_pose = PoseWithCovarianceStamped()
 
-        self.default_pose.pose.pose.position.x = -2.0
-        self.default_pose.pose.pose.position.y = -0.5
+        self.default_pose.pose.pose.position.x = -3.0
+        self.default_pose.pose.pose.position.y = 1
         self.default_pose.pose.pose.position.z = 0.0
         self.default_pose.header.frame_id = "map"
         self.default_pose.pose.pose.orientation = Quaternion(
