@@ -58,6 +58,7 @@ class NavModule():
             code = self.move_action_client.get_state()
             if code == GoalStatus.SUCCEEDED:
                 rospy.loginfo("goal succeed")
+                self.move_ok()
             else:
                 rospy.loginfo("something is wrong, code is {}".format(code))
 
